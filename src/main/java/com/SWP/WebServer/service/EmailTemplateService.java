@@ -429,7 +429,7 @@ public class EmailTemplateService {
                 + //
                 "          <tr>\n" + //
                 "            <td align=\"center\" valign=\"top\" style=\"padding: 36px 24px;\">\n" + //
-                "              <a href=\"https://topjob.id.vn\" target=\"_blank\" style=\"display: inline-block;\">\n"
+                "              <a href=\"https://www.blogdesire.com\" target=\"_blank\" style=\"display: inline-block;\">\n"
                 + //
                 "                <img src=\"https://as2.ftcdn.net/v2/jpg/00/37/49/91/1000_F_37499133_77fDYXuWOZajzdAriq1eTrjQehgYc88Z.jpg\" alt=\"Logo\" border=\"0\" width=\"48\" style=\"display: block; width: 48px; max-width: 48px; min-width: 48px;\">\n"
                 + //
