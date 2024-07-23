@@ -92,7 +92,6 @@ com/SWP/WebServer/controller/JobTypeController.class
 com/SWP/WebServer/dto/ReverifyDTO.class
 com/SWP/WebServer/dto/PaymentDTO.class
 com/SWP/WebServer/entity/Notification.class
-com/SWP/WebServer/config/SecurityConfig.class
 com/SWP/WebServer/dto/ResetPasswordDTO.class
 com/SWP/WebServer/repository/JobCategoryRepository.class
 com/SWP/WebServer/repository/HistoryPaymentRepository.class

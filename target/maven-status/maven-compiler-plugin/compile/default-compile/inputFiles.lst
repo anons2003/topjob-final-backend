@@ -34,7 +34,6 @@
 /Users/anons/Downloads/topjob-final-backend/src/main/java/com/SWP/WebServer/service/UserService.java
 /Users/anons/Downloads/topjob-final-backend/src/main/java/com/SWP/WebServer/dto/TemplateDTO.java
 /Users/anons/Downloads/topjob-final-backend/src/main/java/com/SWP/WebServer/dto/BookmarkDTO.java
-/Users/anons/Downloads/topjob-final-backend/src/main/java/com/SWP/WebServer/config/SecurityConfig.java
 /Users/anons/Downloads/topjob-final-backend/src/main/java/com/SWP/WebServer/controller/NotificationController.java
 /Users/anons/Downloads/topjob-final-backend/src/main/java/com/SWP/WebServer/controller/AdminController.java
 /Users/anons/Downloads/topjob-final-backend/src/main/java/com/SWP/WebServer/dto/ContactInfoDto.java
