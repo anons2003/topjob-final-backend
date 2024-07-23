@@ -29,7 +29,7 @@ public class NotificationService {
     private EmailService emailService;
 
     public void notifyJobSeekers(Job job) {
-        List<JobSeeker> jobSeekers = jobSeekerRepository.findJobSeekersByOccupation(job.getJobCategoryEntity().getJobCategoryId());
+        List<JobSeeker> jobSeekers = jobSeekerRepository.findJobSeekersByOccupation(job.getJobCategoryEntity().getJobCategoryName());
         for (JobSeeker jobSeeker : jobSeekers) {
             Notification notification = new Notification();
             notification.setMessage("New job posted in your occupation category: " + job.getTitle());
@@ -38,7 +38,7 @@ public class NotificationService {
             notification.setRead(false);
             markForDeletion(notification, 5);
             //cmt email service de test
-//            emailService.sendEmailForJobToJobSeeker(jobSeeker, job);
+            emailService.sendEmailForJobToJobSeeker(jobSeeker, job);
 //             Save notification
             notificationRepository.save(notification);
             // Send real-time notification
