@@ -8,7 +8,7 @@ import io.jsonwebtoken.*;
 @Service
 public class JwtTokenProvider {
     private final String JWT_SECRET = "adhgaads";
-    private final long JWT_VERIFY_EXPIRATION = 300000L;
+    private final long JWT_VERIFY_EXPIRATION = 12 * 60 * 60 * 1000L;
     private final long JWT_ACCESS_EXPIRATION = 2592000000L;
     
     // private final long JWT_ACCESS_EXPIRATION = 60000L;
